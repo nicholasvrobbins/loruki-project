@@ -51,6 +51,11 @@ code, pre {
     padding: 10px;
 }
 
+.hidden {
+    visibility: hidden;
+    height: 0;
+}
+
 /* Navbar Styling */
 .navbar {
     background-color: var(--primary-color);
@@ -99,7 +104,7 @@ code, pre {
 }
 
 .showcase-text {
-    animation: slideInFromLeft 1s ease-in;
+    animation: slideInFromLeft 0.5s ease-in;
 }
 
 .showcase-form {
@@ -110,7 +115,7 @@ code, pre {
     padding: 40px;
     z-index: 100;
     justify-content: flex-end;
-    animation: slideInFromRight 1s ease-in;
+    animation: slideInFromRight 0.5s ease-in;
 }
 
 .showcase-form .form-control {
@@ -148,7 +153,7 @@ code, pre {
 /* Stats */
 .stats {
     padding-top: 100px;
-    animation: slideInFromBottom 1s ease-in;
+    animation: slideInFromBottom 0.5s ease-in;
 }
 
 .stats-heading {
